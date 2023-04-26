@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="pictures.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Meie+Script&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap" rel="stylesheet">
+
+    <title>HATS4U</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!-- h1 would go under here Could make it the logo or insert logo below-->
+            <h1 class="HATS4U">
+                HATS4U
+            </h1>
+
+            <!-- Tabs -->
+            <ul>
+                <li class="nav-list">
+                    <a href="https://www.google.com" class="nav-links">Home</a>
+                </li>
+                <li class="nav-list">
+                    <a href="https://www.google.com" class="nav-links">About</a>
+                </li>
+                <li class="nav-list">
+                    <a href="https://www.google.com" class="nav-links">Shop</a>
+                </li>
+                <li class="nav-list">
+                    <a href="https://www.google.com" class="nav-links">Best Sellers</a>
+                </li>
+                <li class="nav-list">
+                    <a href="https://www.google.com" class="nav-links">Contact Us</a>
+                </li>
+                <button onclick="myFunction()" class="darkmode-button">Dark mode</button>
+
+                <script>
+                    function myFunction() {
+                        var darkMode = document.body;
+                        darkMode.classList.toggle("dark-mode");
+                    }
+                </script>
+            </ul>
+            <!-- search bar -->
+            <ul>
+                <li class="search-bar">
+                    <!-- Search Bar -->
+                    <form class="searchBar">
+                        <input type="text" placeholder="Search.." name="search">
+                        <input type="button" value="Search" />
+                    </form>
+                </li>
+            </ul>
+
+        </nav>
+
+        <section class="hatsCapsBanner">
+
+            <!-- it will go here the "hat caps...." -->
+            <h3>HATS, CAPS WE DO THEM ALL</h3>
+        </section>
+    </header>
+
+    <!--Hats logo-->
+
+    <main>
+        <section>
+            <img class="Hero"
+                src="https://www.dorfmanmilano.com/images/dorfman-website-images/homepage-top-slide/dorfman-milano-top-home-slide-121322.jpg"
+                alt="Picture of a woman and and man wearing cowboy hats">
+        </section>
+
+        <section class="bestSellerBanner" id="BESTSELLERBANNER">
+            <h2>BEST SELLING COLLECTION</h2>
+        </section>
+        <section class="grid-container">
+            <img src="https://assets.vogue.com/photos/620d1fdb6cf632161321cce1/master/w_800%2Cc_limit/slide_15.jpg"
+                alt="Winter Collection">
+            <img src="https://www.hurricane.pt/cdn/shop/products/The-Harvey-Mint-Hat-Hurricane-Lab_800x.jpg?v=1647532632"
+                alt="Spring Collection">
+            <img src="https://img.ltwebstatic.com/images3_pi/2022/03/29/1648539939d5659ef2f9a745654bb0d9a16464fbc4_thumbnail_900x.webp"
+                alt="Summer Collection">
+        </section>
+        <!----Shop now button-->
+        <button class="Winter-button">Winter Season</button>
+        <button class="Spring-button">Spring Season</button>
+        <button class="Summer-button">Summer Season</button>
+
+    </main>
+
+    <footer>
+        <ul>
+            <li class="foot-list"><a href="http://">Home</a></li>
+            <li class="foot-list"><a href="http://">About</a></li>
+            <li class="foot-list"><a href="http://">Terms</a></li>
+            <li class="foot-list"><a href="http://">Privacy Policy</a></li>
+        </ul>
+        <p>&#169; HATS4U 2023</p>
+    </footer>
+
+</body>
+
+</html>
